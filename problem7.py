@@ -10,3 +10,6 @@ while cont <=10001:
         if cont == 10001:
             print('O {}º número primo é: {}'.format(cont,num))
     num += 1
+    if num > 100:
+        print('teste')
+    
